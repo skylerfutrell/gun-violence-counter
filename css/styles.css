@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+  transition: background-color 0.5s ease; /* Smooth transition for background */
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+.counter-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.counter {
+  font-size: 3em;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #e74c3c; /* Default Red */
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  transition: width 0.2s ease-in-out; /* Faster transition */
+}
+
+.progress-bar.nearing-full {
+  background-color: #f39c12; /* Orange when nearing full */
+  animation: flash 0.2s linear infinite; /* Flashing effect */
+}
+
+.progress-bar.full {
+  background-color: #e74c3c; /* Keep red when full */
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+@keyframes backgroundFlash {
+  0% { background-color: #f4f4f4; } /* Normal background */
+  50% { background-color: #f39c12; } /* Flashing yellow background */
+  100% { background-color: #f4f4f4; } /* Revert back */
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
+
+body.flashing {
+  animation: backgroundFlash 1s linear infinite; /* Flashing effect for background */
+}
