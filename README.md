@@ -38,7 +38,7 @@ The counter updates dynamically, visually representing the frequency of incident
    - JavaScript logic for real-time updates and animations.
      
 4. warning.wav:
-   
+
    – Beep sound effect played before an update.
 
 🏁 Getting Started:
