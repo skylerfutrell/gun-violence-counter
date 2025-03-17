@@ -39,7 +39,7 @@ The counter updates dynamically, visually representing the frequency of incident
      
 4. warning.wav:
 
-   – Beep sound effect played before an update.
+   - Beep sound effect played before an update.
 
 🏁 Getting Started:
 
