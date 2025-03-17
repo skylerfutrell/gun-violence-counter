@@ -26,11 +26,17 @@ The counter updates dynamically, visually representing the frequency of incident
 📂 Files:
 
 1. index.html:
+   
    - The main structure of the webpage.
+     
 2. styles.css:
+   
    - Styling for the counter, progress bar, and flashing effects.
+     
 3. script.js:
+   
    - JavaScript logic for real-time updates and animations.
+     
 4. warning.wav:
    – Beep sound effect played before an update.
 
