@@ -4,7 +4,7 @@
 
 ⏩ Quick, simple, and adaptable!
 
-👀 [View on GitHub Pages](https://skylerfutrell.github.io/gun-violence-counter/)
+👀 [View on GitHub Pages](https://skylerfutrell.github.io/gun-violence-counter-v1/)
 
 📌 Project Overview: 
 This project is a real-time counter that simulates gun-related incidents in the United States based on statistical averages.
